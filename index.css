@@ -1,23 +1,29 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    align-items: center;
+    justify-content: center;
+}
 body{
-    background-color:  #000417;
+    background-color:  #6DD1E8;
 }
 header{
     display: flex;
+    justify-content: center;
     align-items: center;
     text-align: center;
     width: 100%;
     height: fit-content;
-    line-height: 0.8em;
+    line-height: 1.5em;
     color: white;
+    background-color: #000417;
+    padding: 5px;
     
 
 }
-.logo-cabecalho:hover{
-    transition: all 1s ease;
-    transform: rotate3d(80º left);
-}
 menu{
     display: block;
+    position: ;
     padding: 0px 40px;
     background-color: #6DD1E8;
     border: 1px #6DD1E8;
@@ -39,9 +45,12 @@ menu{
     display: none;
 }
 main{
-    position: absolute;
-    background-color: #000000;
+    justify-content: center;
+    align-items: center;
+    background-color: #00000000;
     border-radius: 2px 40px;
+    margin: 0px 50px;
+    
 }
 .artigo{
     margin: 15px;
@@ -51,10 +60,25 @@ main{
     text-align: center;
     box-shadow: 1px 3px 6px black;
 }
+.ul-coluna{
+    display: flex;
+    flex: column;
+    align-items: center;
+}
 .cards{
-    background-color: rgba(196, 224, 248, 0.387);
+    align-items: center;
+    background-color: rgba(131, 186, 234, 0.436);
     border-radius: 50px;
     padding: 0px 10px;
+    width: max-content;
+    color: white;
+    padding: 3px;
+    margin: 5px 20px;
+}
+.cardsimage{
+    width: 75px;
+    margin: 5px;
+    
 }
 .form-pagina-inicial{
     background-color: rgba(196, 224, 248, 0.387);
@@ -62,9 +86,10 @@ main{
     padding: 5px 10px;
 }
 footer{
-    margin-top: 120%;
-    background-color: #286199;
-    display: flex;
+    
+    background-color: #000417;
+    flex-direction: column;
     width: 100%;
+    color: white;
     
 }
