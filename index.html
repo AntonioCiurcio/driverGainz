@@ -9,25 +9,26 @@
 </head>
 <body>
     <header>
-       <div class="cabecalho">
+       <div class="logo-cabecalho"> 
+        <img src="pngegg.png" alt="logo driver gainz" height="100px">
+       </div>
+        <div class="cabecalho">
         <h1>Driver Gainz</h1>
         <h2>O aliado dos motoristas de aplicativo.</h2>
        </div>
-       <div class="logo-cabecalho"> 
-        <img src="pngegg.png" alt="logo driver gainz">
-       </div> 
+       
     </header>
     <aside>
         <div class="menu-de-navegação">
             <menu>
-                <a href="">Inicio</a>
-                <a href="">Gainz</a>
-                <a href="">Carros</a>
-                <a href="">Metas</a>
-                <a href="">Historico</a>
+                <a href="" class="amenu">Inicio</a>
+                <a href="" class="amenu">Gainz</a>
+                <a href="" class="amenu">login</a>
             </menu>
-            <form action="get">Email ou usuario</form>
-            <form action="get">senha</form>
+            <div id="loguincard">
+                <form action="get">Email ou usuario<input type="email"></form>
+                 <form action="get">senha<input type="password"></form>
+            </div>
         </div>
     </aside>
     <main>
@@ -48,22 +49,24 @@
             <article class="artigo">
                 <div class="criação-loguin">
                     <h3>acesse sua conta</h3>
-                    <form action="get">Email ou usuario</form>
-                    <form action="get">senha</form>
+                    <form action="get">Email ou usuario<br><input type="email"></form>
+                 <form action="get">senha<br><input type="password"></form>
                     <h4>ainda não é cadastrado?</h4>
                     <a href="">clique aqui e cadastre-se ja</a>
                 </div>
             </article>
-            <article>
+            <article class="artigo">
+                <h3>Calculadora de Gainz</h3>
                 <div class="form-pagina-inicial">
-                    <h3>Calculadora de Gainz</h3>
-                    <p>Preencha e veja quanto ganhar por km em viagem para não sair perdendo.</p>
-                    <form action="">consumo (km/l)</form>
-                    <form action="">media de km/dia</form>
-                    <form action="">valor do combustivel</form>
-                    <form action="">valor do carro*</form>
+                    
+                    <p>Preencha e veja quanto ganhar por km em viagem <br> para não sair perdendo.</p>
+                    <form action="">consumo (km/l)<br><input type="text"></form>
+                    <form action="">media de km/dia<br><input type="text"></form>
+                    <form action="">valor do combustivel<br><input type="text"></form>
+                    <form action="">valor do carro*<br><input type="text"></form>
                     <p>* caso seja alugado ou ainda esteja em parcelamento/financiamento</p>
-                    <h5>Um motorista que roda cerca de - mostrar media de km/dia - com um consumo de - mostrar consumo -  , tendo um gasto de - mostrar valor do combustivel - com combustivel e de - mostrar valor do carro - com aluguel/financiamento o ganho por km rodado deve ser de <strong>mostrar valor</strong></h5>
+                    <h5>Um motorista que roda cerca de - mostrar media de km/dia - <br>com um consumo de - mostrar consumo - <br> tendo um gasto de - mostrar valor do combustivel - com combustivel <br>e de - mostrar valor do carro - com aluguel/financiamento</h5>
+                    <h4>o ganho por km rodado deve ser proximo a <strong>-mostrar valor-</strong></h4>
                     <p>note que este valor considera apenas que o motorista esta cobrindo gastos e não considera lucros</p>
                     <p>para incluir metas de lucros, salvar perfis de carros e muito mais, crie sua conta <button><strong>gratuita clicando aqui</strong></button></p>
                 </div>
