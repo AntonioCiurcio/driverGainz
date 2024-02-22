@@ -5,6 +5,14 @@
     justify-content: center;
     max-width: 100%;
 }
+@media all and (min-width: 800px){
+    .amenu{
+        flex: 4;
+    }
+    .cards{
+        display: block;
+    }
+}
 body{
     background-color:  #6DD1E8;
 }
@@ -52,11 +60,12 @@ menu{
     flex-flow: column;
 }
 main{
+    
     justify-content: center;
     align-items: center;
     background-color: #00000000;
     border-radius: 2px 40px;
-    margin: 0px 50px;
+    margin: 0% 5%;
     width: auto;
     
 }
@@ -71,19 +80,24 @@ main{
 }
 .ul-coluna{
     display: flex;
-    flex: column;
+    flex-flow: colun wrap;
+    min-width: 800px;
+    max-width: max-content;
     align-items: center;
+    padding:5px;
+    
 }
 .cards{
     display: block;
     align-items: center;
     background-color: rgba(131, 186, 234, 0.436);
     border-radius: 50px;
-    padding: 0px 10px;
-    width: 100%;
+    padding: 0px 40px;
+    max-width: 1080px;
     color: white;
-    padding: 3px;
-    margin: 5px 20px;
+    padding: 20px;
+    margin: 5px 5px;
+    text-align: center;
 }
 .cardsimage{
     width: 75px;
