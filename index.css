@@ -1,28 +1,26 @@
 *{
     margin: 0px;
     padding: 0px;
-    align-items: center;
-    justify-content: center;
-    max-width: 100%;
+}
+html, body{
+    background-color:  #6DD1E8;
+    width: 100vw;
     height: 100vh;
 }
-body{
-    background-color:  #6DD1E8;
-}
 header{
-    position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
-    width: 100%;
     line-height: 1.5em;
     color: white;
     background-color: #00082d;
     padding: 2px;
-    margin: auto;
-    
-
+    width: 100vw;
+}
+#logo:hover{
+    transform: rotate(60deg);
+    transition: ease-in-out 0.6s;
 }
 menu{
     position: absolute;
@@ -33,7 +31,7 @@ menu{
     border: 1px #6DD1E8;
     box-shadow: 1px 1px black;
     margin:auto;
-    width: 100%;
+    width: 100vw;
     align-items: center;
     text-align: center;
 }
@@ -45,17 +43,14 @@ menu{
     color: black;
 
 }
-#loguincard{
-    display: none;
-}
 .lista-em-cards{
     width: 80%;
     display: flex;
     flex-flow: column;
 }
 main{
-    position: relative;
     box-sizing: border-box;
+    margin: 5%;
     
     
 }
